@@ -6,9 +6,22 @@
 <body>
   <body style="background-color:rgb(211, 187, 227);">
     <h1> Let's get acquainted :)</h1>
-    <img src=eu.jpeg alt="Georgia">
+    <picture>
+      <source 
+         media="(min-width: 650px)"
+         srcset="eu.jpeg">
+      <source 
+         media="(min-width: 465px)"
+         srcset="eu.jpeg">
+      <img src="eu.jpeg" 
+      alt="a cute kitten">
+   </picture>
     <p> My name is Georgia and I'm 20 years old; I was born and raised in Brasov but I'm currently living in Cluj. I would describe 
       myself as a friendly person who likes to try new things. Keep reading if you'd like to know more about me.</p>
+      <br>
+      <p>Here's a video of my dogs:</p>
+      <video  width="600" height="500" autoplay muted>
+        <source src="mydogs.mp4" type="video/mp4"></video>
     <ul>
       <li><a href=studies.html>Where have I studied?</a></li>
       <li><a href=experience.html>What did I try to do?</a></li>
